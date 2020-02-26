@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "marca": "Ford",
+        "modelo": "Figo",
+        "anio": "2016",
+        "motor": {
+            "desplazamiento": "1.5",
+            "potencia": "120",
+            "torque": "109",
+            "rendimiento": "17"
+        },
+        "exteriores":{
+            "color": "plata",
+            "faros": {
+                "halogeno": true,
+                "niebla": true,
+                "led": false
+            }
+        },
+        "imageUrl": "resources/img/"
+    },
+    {
+        "id": 2,
+        "marca": "Ford",
+        "modelo": "Figo",
+        "anio": "2016",
+        "motor": {
+            "desplazamiento": "1.5",
+            "potencia": "120",
+            "torque": "109",
+            "rendimiento": "17"
+        },
+        "exteriores":{
+            "color": "plata",
+            "faros": {
+                "halogeno": true,
+                "niebla": true,
+                "led": false
+            }
+        },
+        "imageUrl": "resources/img/"
+    },
+    {
+        "id": 3,
+        "marca": "Ford",
+        "modelo": "Figo",
+        "anio": "2016",
+        "motor": {
+            "desplazamiento": "1.5",
+            "potencia": "120",
+            "torque": "109",
+            "rendimiento": "17"
+        },
+        "exteriores":{
+            "color": "plata",
+            "faros": {
+                "halogeno": true,
+                "niebla": true,
+                "led": false
+            }
+        },
+        "imageUrl": "resources/img/"
+    },
+    {
+        "id": 4,
+        "marca": "Ford",
+        "modelo": "Figo",
+        "anio": "2016",
+        "motor": {
+            "desplazamiento": "1.5",
+            "potencia": "120",
+            "torque": "109",
+            "rendimiento": "17"
+        },
+        "exteriores":{
+            "color": "plata",
+            "faros": {
+                "halogeno": true,
+                "niebla": true,
+                "led": false
+            }
+        },
+        "imageUrl": "resources/img/"
+    }
+]
