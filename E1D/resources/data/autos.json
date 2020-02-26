@@ -1,0 +1,155 @@
+[
+    {
+        "id" : 1,
+        "tipo" : "auto",
+        "marca" : "Ford",
+        "modelo" : "Figo",
+        "anio" : "2016",
+        "motor" : {
+            "desplazamiento" : "1.5",
+            "potencia" : "120",
+            "torque" : "109",
+            "rendimiento" :"17"            
+        },
+        "exteriores" : {
+            "color" : "Plata",
+            "faros" : {
+                "halogeno" : true,
+                "niebla" : false
+            }
+        },
+        "imagenUrl" : "/resources/images/ford_figo_2016.jpg"
+    },
+    {
+        "id" : 2,
+        "tipo" : "auto",
+        "marca" : "Volkswagen",
+        "modelo" : "Polo",
+        "anio" : "2014",
+        "motor" : {
+            "desplazamiento" : "1.6",
+            "potencia" : "110",
+            "torque" : "105",
+            "rendimiento" :"12"            
+        },
+        "exteriores" : {
+            "color" : "rojo",
+            "faros" : {
+                "halogeno" : true,
+                "niebla" : true
+            }
+        },
+        "imagenUrl" : "/resources/images/vw_polo_2014.jpeg"
+
+     },
+    {
+        "id" : 3,
+        "tipo" : "auto",
+        "marca" : "KIA",
+        "modelo" : "Rio",
+        "anio" : "2018",
+        "motor" : {
+            "desplazamiento" : "1.8",
+            "potencia" : "121",
+            "torque" : "110",
+            "rendimiento" :"15"            
+        },
+        "exteriores" : {
+            "color" : "Azul",
+            "faros" : {
+                "halogeno" : true,
+                "niebla" : true
+            }
+        },
+        "imagenUrl" : "/resources/images/kia_rio_2018.jpeg"
+
+    },
+    {
+        "id" : 4,
+        "tipo" : "auto",
+        "marca" : "Nissan",
+        "modelo" : "Versa",
+        "anio" : "2020",
+        "motor" : {
+            "desplazamiento" : "1.6",
+            "potencia" : "120",
+            "torque" : "108",
+            "rendimiento" :"14"            
+        },
+        "exteriores" : {
+            "color" : "Anaranjado",
+            "faros" : {
+                "halogeno" : false,
+                "niebla" : false,
+                "led" : true
+            }
+        },
+        "imagenUrl" : "/resources/images/nissan_versa_2020.jpg"
+    },
+    {
+        "id" : 5,
+        "tipo" : "sub",
+        "marca" : "Nissan",
+        "modelo" : "Xtrail",
+        "anio" : "2019",
+        "motor" : {
+            "desplazamiento" : "2.5",
+            "potencia" : "135",
+            "torque" : "120",
+            "rendimiento" :"10"            
+        },
+        "exteriores" : {
+            "color" : "Blanco",
+            "faros" : {
+                "halogeno" : true,
+                "niebla" : true,
+                "led" : false
+            }
+        },
+        "imagenUrl" : "/resources/images/nissan_xtrail_2019.jpg"
+    },
+    {
+        "id" : 6,
+        "tipo" : "sub",
+        "marca" : "Renault",
+        "modelo" : "Duster",
+        "anio" : "2016",
+        "motor" : {
+            "desplazamiento" : "2.0",
+            "potencia" : "135",
+            "torque" : "115",
+            "rendimiento" :"10"            
+        },
+        "exteriores" : {
+            "color" : "Arena",
+            "faros" : {
+                "halogeno" : true,
+                "niebla" : false,
+                "led" : false
+            }
+        },
+        "imagenUrl" : "/resources/images/renault_duster_2016.jpg"
+    },
+    {
+        "id" : 7,
+        "tipo" : "sub",
+        "marca" : "Honda",
+        "modelo" : "CR-V",
+        "anio" : "2015",
+        "motor" : {
+            "desplazamiento" : "2.4",
+            "potencia" : "184",
+            "torque" : "150",
+            "rendimiento" :"10"            
+        },
+        "exteriores" : {
+            "color" : "Café",
+            "faros" : {
+                "halogeno" : true,
+                "niebla" : false,
+                "led" : false
+            }
+        },
+        "imagenUrl" : "/resources/images/honda_crv_2015.jpg"
+    }
+]
