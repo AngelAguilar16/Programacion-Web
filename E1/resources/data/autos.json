@@ -18,17 +18,17 @@
                 "led": false
             }
         },
-        "imageUrl": "resources/img/"
+        "imageUrl": "../img/fiesta2019.jpg"
     },
     {
         "id": 2,
         "marca": "Ford",
-        "modelo": "Figo",
-        "anio": "2016",
+        "modelo": "Fiesta",
+        "anio": "2019",
         "motor": {
-            "desplazamiento": "1.5",
+            "desplazamiento": "1.6",
             "potencia": "120",
-            "torque": "109",
+            "torque": "112",
             "rendimiento": "17"
         },
         "exteriores":{
@@ -39,7 +39,7 @@
                 "led": false
             }
         },
-        "imageUrl": "resources/img/"
+        "imageUrl": "resources/img/fiesta2019.jpg"
     },
     {
         "id": 3,

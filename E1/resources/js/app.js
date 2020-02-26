@@ -3,7 +3,7 @@ const app = {
     urlDatos : "../resources/data/autos.json",
 
     cargarFichas : function(){
-        const cont = document.querySelector("#content");
+        const cont = document.querySelector(".content");
         var html = '';
         fetch(this.urlDatos)
         .then((response) => response.json())
