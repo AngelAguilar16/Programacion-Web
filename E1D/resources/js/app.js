@@ -12,8 +12,7 @@ const app = {
             .then( response => response.json())
              .then( autos => { 
                 for( let auto of autos){
-                    //**Tarea: escribir la línea de código que falta a continuación*/
-                    if(app.filtro == "todos" || auto.tipo == app.filtro){
+                    if(auto.tipo == app.filtro || app.filtro == "todos"){
                         html +=`
                         <div class="tarjeta">
                             <div class="tarjeta-head">
@@ -50,7 +49,9 @@ const app = {
 
 window.onload = function(){
     app.cargarFichas();
-    //**Analizar el siguiente código y prepararse para explicarlo */   
+    
+    //**Analizar el siguiente código y prepararse para explicarlo */
+    
     const amenu = document.querySelectorAll("a.menu");          //Qué es a.menu
     amenu.forEach( menuItem => {                                //Qué representa menuItem
         menuItem.addEventListener("click",function( event ){
@@ -59,6 +60,7 @@ window.onload = function(){
             app.cargarFichas();                                 //por qué se vuelve a ejecutar este método
         });
     });
+
 };
 
 
