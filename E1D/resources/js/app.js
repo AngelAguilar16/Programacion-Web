@@ -14,14 +14,12 @@ const app = {
                 for( let auto of autos){
                     if(auto.tipo == app.filtro || app.filtro == "todos"){
                         html +=`
-                        <div class="tarjeta">
-                            <div class="tarjeta-head">
-                                <img src="${ auto.imagenUrl }" alt="${auto.marca}" class="foto" onclick="app.verFoto(this)">
-                            </div>
-                            <div class="tarjeta-body">
-                                <h3>${auto.marca}</h3>
-                                <span>${auto.modelo}</span>
-                                <span>${auto.anio}</span>
+                        <div class="card m-3" style="width: 250px; display:inline-block;">
+                            <img src="${ auto.imagenUrl }" alt="${auto.marca}" class="card-img-top" onclick="app.verFoto(this)">
+                            <div class="card-body">
+                                <h3 class="card-title">${auto.marca}</h3>
+                                <span class="card-text">${auto.modelo}</span>
+                                <span class="card-text">${auto.anio}</span>
                                 <br>
                                 <small>  
                                     ${auto.motor.desplazamiento }L, 

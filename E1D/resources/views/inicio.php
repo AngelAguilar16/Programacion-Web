@@ -3,7 +3,7 @@
     head();
 ?>
 
-<div class="content" id="content"></div>
+<div class="content text-center" id="content"></div>
 
 <?php 
     foot();
