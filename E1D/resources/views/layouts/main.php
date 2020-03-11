@@ -7,29 +7,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 1</title>
-    <link rel="stylesheet" href="/resources/css/styles.css">
+    <title>AVeSe</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="/resources/css/styles.css">-->
 </head>
 <body>
-   <div id="app">
-       <div class="container">
-            <div class="header">
-                <div style="display: inline-block;">
-                    <h1 id="titulo">Agencia de vehículos seminuevos</h1>
-                </div>
-                <div class="logo">
-                    <img src="resources/images/ppw.png">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Inicio</a> | </li>
-                        <li><a href="#" class="menu" data-filtro="todos">Ver todos los vehículos</a> | </li>
-                        <li><a href="#" class="menu" data-filtro="auto">Autos </a> | </li>
-                        <li><a href="#" class="menu" data-filtro="sub">Sub's </a></li>
-                    </ul>
-                </nav>        
+   <div id="app" class="container mw-100">
+        <div class="row bg-dark text-light">
+            <div class="col-md-8">
+                <h2 id="titulo">Agencia de vehículos seminuevos</h2>
             </div>
+            <div class="col-md-4 text-right">
+                <img src="/resources/images/ppw.png" class="my-1 mt-3" style="height:40px;">
+            </div>
+        </div>        
 
 <?php 
     }
@@ -37,7 +28,6 @@
     function foot(){
 ?> 
 
-        </div>
     </div> 
     <div class="modal" id="modal-foto"></div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

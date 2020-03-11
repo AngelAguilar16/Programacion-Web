@@ -1,6 +1,6 @@
 const app = {
 
-    urlDatos : "resources/data/autos.json",
+    urlDatos : "/resources/data/autos.json",
 
     filtro : "todos",
 
