@@ -42,7 +42,41 @@ const app = {
                 `; 
                 mf.style.display = 'block';
                 console.log(mf.innerHTML);          
-            }
+            
+    },
+
+    buscarVehiculo : function(e){
+        const cont = document.querySelector("#content");
+        var html = '';
+        const q = $("#buscar-vehiculo");
+        console.log("Hola prro");
+     
+        fetch(this.urlDatos)
+            .then( response => response.json())
+             .then( autos => { 
+                for( let auto of autos){
+                    if(auto.tipo == app.filtro || app.filtro == "todos"){
+                        html +=`
+                        <div class="card m-3" style="width: 250px; display:inline-block;">
+                            <img src="${ auto.imagenUrl }" alt="${auto.marca}" class="card-img-top" onclick="app.verFoto(this)">
+                            <div class="card-body">
+                                <h3 class="card-title">${auto.marca}</h3>
+                                <span class="card-text">${auto.modelo}</span>
+                                <span class="card-text">${auto.anio}</span>
+                                <br>
+                                <small>  
+                                    ${auto.motor.desplazamiento }L, 
+                                    ${auto.motor.potencia } HP, 
+                                    ${auto.motor.rendimiento } K/l</small>
+                            </div>
+                        </div>
+                        `;
+                    }
+                }                    
+                cont.innerHTML = html;
+            })
+            .catch( error => console.log(error));
+    }
 };
 
 window.onload = function(){
