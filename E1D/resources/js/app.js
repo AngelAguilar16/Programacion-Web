@@ -48,8 +48,8 @@ const app = {
     buscarVehiculo : function(e){
         const cont = document.querySelector("#content");
         var html = '';
-        const q = $("#buscar-vehiculo");
-        console.log("Hola prro");
+        const q = $("#buscar-vehiculo").text();
+        console.log(q);
      
         fetch(this.urlDatos)
             .then( response => response.json())
