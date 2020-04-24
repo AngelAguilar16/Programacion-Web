@@ -9,7 +9,7 @@
     {
       "postId": 1,
       "id": 2,
-      "name": "quo vero reiciendis velit similique earum",
+      "name": "Gran proyecto",
       "email": "Jayne_Kuhic@sydney.com",
       "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
     },
@@ -33,5 +33,12 @@
       "name": "vero eaque aliquid doloribus et culpa",
       "email": "Hayden@althea.biz",
       "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
+    },
+    {
+      "postId": 2,
+      "id": 6,
+      "name": "Idk",
+      "email": "devangelaguilar@gmail.com",
+      "body": "Idk, sorry"
     }
 ]

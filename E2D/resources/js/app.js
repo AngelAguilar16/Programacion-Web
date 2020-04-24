@@ -1,10 +1,7 @@
 const app = {
 
     urlPosts: "/resources/json/posts.json",
-    //urlPosts : "https://jsonplaceholder.typicode.com/posts",
-    //urlComments : "https://jsonplaceholder.typicode.com/comments",
     urlComments: "/resources/json/comments.json",
-    // urlUsers : "https://jsonplaceholder.typicode.com/users",
     urlUsers: "/resources/json/users.json", 
     
     userId : '',
@@ -79,10 +76,12 @@ const app = {
             .then( respuesta => respuesta.json())
             .then( usuarios => {
                 for( let usuario of usuarios){
+                    var userImg = usuario.image;
                     html += `
                         <button type="button" class="list-group-item list-group-item-action" id="uc${ usuario.id }" onclick="app.userComments(${ usuario.id })">
-                            ${ usuario.name } <br><small> ${ usuario.email } </small>
+                        <img src="http://blog.aa/resources/images/Users/${usuario.image}.png" id="imgUser" class="mt-3px" style="height:25px;"> ${ usuario.name } <br><small> ${ usuario.email } </small>
                         </button>
+                        
                     `;
                 }
                 users.html(html);

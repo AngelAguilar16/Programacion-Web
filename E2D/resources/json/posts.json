@@ -2,7 +2,13 @@
   {
     "userId": 1,
     "id": 1,
-    "title": "Publicacion de prueba",
-    "body": "Publicacion solo para comprobar si funciona el sistema de publicacion"
+    "title": "Primer Dev Update",
+    "body": "El proximo proyecto de AA ya viene en camino: N Writer."
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "N Writer: Dev Update 1",
+    "body": "Ya esta disponible la Beta"
   }
 ]

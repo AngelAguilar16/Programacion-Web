@@ -4,6 +4,7 @@
       "name": "Miguel Ángel",
       "username": "AngelAguilar16",
       "email": "mgordillo0@ucol.mx",
+      "image": "user_1",
       "address": {
         "street": "Kulas Light",
         "suite": "Apt. 556",
@@ -27,6 +28,7 @@
       "name": "Jesus Aguilar",
       "username": "changomigue",
       "email": "khonkho@icloud.com",
+      "image": "user_2",
       "address": {
         "street": "Victor Plains",
         "suite": "Suite 879",
@@ -50,6 +52,7 @@
       "name": "Ángel Aguilar",
       "username": "DevAngelAguilar",
       "email": "devangelaguilar@gmail.com",
+      "image": "user_3",
       "address": {
         "street": "Douglas Extension",
         "suite": "Suite 847",
