@@ -12,7 +12,7 @@ function head(){
     <title>Blog</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
     <!--<link rel="stylesheet" href="/resources/css/bootstrap.min.css" type="text/css">-->
-    <!-- <link rel="stylesheet" href="/resources/css/styles.css" type="text/css"> -->
+    <link rel="stylesheet" href="/resources/css/styles.css" type="text/css">
 </head>
 <body>
    <div id="app" class="container mw-100">

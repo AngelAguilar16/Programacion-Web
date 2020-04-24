@@ -12,6 +12,10 @@ body {
     background: #F0DBFE;
 }
 
+#imgUser{
+    border-radius: 20px;
+}
+
 .header {
     position: relative;
     top: 0;

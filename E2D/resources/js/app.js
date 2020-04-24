@@ -19,7 +19,7 @@ const app = {
                    
                     if(post.userId === this.userId || this.userId === ''){
                         html +=`
-                        <div class="card mb-2">                            
+                        <div class="card mb-2">   
                             <div class="card-body">
                                 <h3>${ post.title }</h3>
                                 <p>${ post.body }</p>
@@ -52,7 +52,9 @@ const app = {
             .then( response => response.json())
             .then( comentarios => { 
                 for( let c of comentarios){                    
-                    html += `<li class="list-group-item">De:<b> ${ c.email }</b> <br> ${ c.body } </li>`;                    
+                    if(postId == c.postId){
+                        html += `<li class="list-group-item">De:<b> ${ c.email }</b> <br> ${ c.body } </li>`;                    
+                    }
                 }                
                 listaCom.html(html);//sin jquery sería asi: listaCom-innerHTML = html;
                 listaCom.parent().css("display","block");
