@@ -1,8 +1,4 @@
-<?php
-
-function head(){
-?>
-
+<?php function head(){ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +6,7 @@ function head(){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/resources/css/bootstrapp.min.css">
     <link rel="stylesheet" href="/resources/css/style.css">
-    <title>BLOGX</title>
+    <title>[BLOGX]</title>
 </head>
 <body>
     <nav class="navbar navbar-expanded-lg navbar-dark bg-dark">
@@ -20,13 +16,26 @@ function head(){
         </button>
         <div class="collapse-navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"></li>
+            <?php if(true){ ?>
+                <li class="nav-item active">
+                    <a href="/resources/views/publicaciones.php" class="nav-link">Mis publicaciones</a>
+                </li>
+            <?php } ?>    
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+            <?php if(true){ ?>
+                <button class="nav-link btn btn-link" type="button" onclick="">Iniciar sesión</button>
+            <?php }else{ ?>
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nombre de Usuario(PHP)</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <button class="dropdown-item" onclick="">Cerrar sesión</button>
+                </div>
+            <?php } ?>        
+                </li>
             </ul>
         </div>    
-    </nav>
-    
+    </nav>    
 </body>
 </html>
-
-<?php
-}
+<?php } ?>
